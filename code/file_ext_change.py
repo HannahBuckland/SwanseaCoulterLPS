@@ -5,7 +5,7 @@
 
 import os
 import sys
-folder = 'data/20220120/'
+folder = '../data/20220119/'
 
 for filename in os.listdir(folder):
   infilename = os.path.join(folder,filename)
