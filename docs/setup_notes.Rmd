@@ -1,0 +1,74 @@
+---
+title: "Beckman Coulter Laser Particle Size Analyser"
+author: "Hannah Buckland"
+date: "21/01/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(here)
+library(tidyverse)
+library(reticulate)
+```
+
+## First trial runs on LPS
+
+This document contains my notes from intial tests using the Beckman Coulter Laser Particle Size analyser in the Department of Geography at Swansea University.
+I want to understand the best strategies for analysing volcanic ash using this equipment and develop repeatable work flows right through from the sample prep to data analysis stage.
+
+From the 19-20th of January 2022 I ran some preliminary tests.
+
+I was first testing the best method of sample preparation prior to using the LPS. I first prepared sample tubes of distal Mazama tephra (from the Pole Bridge site, Buckland et al. 2020) in water with varying ratios of tephra to water. However, I quickly realised that doing this causes the tephra to *separate* dramatically (still dense crystals and low density pumice in these samples), and even after vigorous stirring the separation affects the sample added to the LPS. I was finding often the first pipette of material was much coarser than I was expecting (because the dense, coarse crystals were sinking in the pipette), and the second repeat analysis was much finer (the coarser particles had been removed by the first analysis).
+
+I then tried simply mixing a small amount of the sample with water on a watch glass and adding the sample using a small spatula, but again my feeling was there was still some separation occuring with this method and it was not very reproducible.
+
+I decided to use the same approach as when I measured tephra using the Malvern Mastersizer at the University of Bristol, which was to add small spatulas of the loose powder to the water until the optimal obscuration is achieved. This does result in some ash being deposited around the machine, so cross contamination must be carefully considered. Essentially, when analysing the IODP tephras I won't want to use any of the samples that I take into the LPS lab for geochemistry (may be contaminated with other samples).
+
+After deciding that adding the loose powder was best, I was still seeing some variability in the GSDs for the same Mazama sample. I think the main problem is that at the coarse end of the GSD for this sample, the particles range from crystals to pumice, and are small in number. Because the volume of material analysed with the Beckman Coulter LPS is quite small and changes in the number/type of coarse particles actually can significantly alter the GSD because even though the number of particles is small, they contribute significant volumes. Perhaps for IODP samples two splits should be analysed and the coarse GSD (>125 µm) can be measured by sieving. **Need to check with Paul availability of dry, clean sieves in the department**.
+
+Importantly whilst on the Beckman computer I set up my preferences to ensure the LPS outputs data in a format that is compatible with sieve intervals (as is most commonly used in volcanolog). This will make processing the data later much easier.
+
+## Processing the output files from the LPS
+
+The files output by the LPS are in a strange format. Supposedly they are excel compatible, but every time you open them with Excel you get a warning, and I want to avoid Excel processing as much as possible anyway.
+
+Therefore the first step was to tidy up the weird file names and change the extension of the files which contain the data. I wrote a python script to do this:
+```{python file rename}
+import os
+import sys
+folder = '../data/20220119/'
+
+for filename in os.listdir(folder):
+  infilename = os.path.join(folder,filename)
+  base_file, ext = os.path.splitext(filename)
+  if ext == ".xls":
+    output = os.rename(infilename, infilename.replace('.$ls.xls', '.txt'))
+
+```
+
+Now we have the data in the right format I wrote a function to do some more reprocessing of the LPS files. I wrote a function to do this and set the plotting theme in a separate function for consistency:
+
+```{r data process, warning=FALSE, message=FALSE}
+source(here::here("code","file_process_function.R"))
+source(here::here("code","theme_function.R"))
+
+LPSprocess
+theme_LPS
+
+```
+
+This function produces plots and outputs the processed data for any file that has been processed using the HBuckland preferences using the Beckman software. The plots produced by the function for each sample analysed:
+
+```{r perform function, echo=FALSE, fig.width=13,fig.height=6}
+source(here::here("code","file_process_function.R"))
+source(here::here("code","theme_function.R"))
+
+LPStxt <- "../data/20220120/CITEST_CI_Rom_12.txt"
+out <- LPSprocess(LPStxt)
+out$plot
+
+```
+
+
+
