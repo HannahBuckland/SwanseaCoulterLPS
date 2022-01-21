@@ -12,7 +12,7 @@ library(tidyverse)
 library(reticulate)
 ```
 
-## First trial runs on LPS
+## First trial runs on the LPS
 
 This document contains my notes from intial tests using the Beckman Coulter Laser Particle Size analyser in the Department of Geography at Swansea University.
 I want to understand the best strategies for analysing volcanic ash using this equipment and develop repeatable work flows right through from the sample prep to data analysis stage.
@@ -28,6 +28,8 @@ I decided to use the same approach as when I measured tephra using the Malvern M
 After deciding that adding the loose powder was best, I was still seeing some variability in the GSDs for the same Mazama sample. I think the main problem is that at the coarse end of the GSD for this sample, the particles range from crystals to pumice, and are small in number. Because the volume of material analysed with the Beckman Coulter LPS is quite small and changes in the number/type of coarse particles actually can significantly alter the GSD because even though the number of particles is small, they contribute significant volumes. Perhaps for IODP samples two splits should be analysed and the coarse GSD (>125 µm) can be measured by sieving. **Need to check with Paul availability of dry, clean sieves in the department**.
 
 Importantly whilst on the Beckman computer I set up my preferences to ensure the LPS outputs data in a format that is compatible with sieve intervals (as is most commonly used in volcanolog). This will make processing the data later much easier.
+
+Another practical aspect to using the LPS I investigated was whether using the sonicator (ultrasonic) helped break up potential aggregates. When using the Mastersizer at Bristol for instance, we always used the ultrasonic option, however, during the induction Rhodri and Grahame had said they didn't find it makes a big difference (but they don't often analyse ash). Because of the variability I was finding in the Mazama sample, it was difficult to confidently say whether sonicating the sample was making much of a difference. So I decided to also analyse a distal Campanian Ignimbrite sample I have from Romania. Analysing this sample without the sonication produced very reproducible GSDs, so I was more confident, if it had an affect, I would be able to attribute any differences to adding the sonication. It seems like when I used the sonication it **did** make the GSD slightly finer grained (as expected if breaking up aggregates). So whilst it makes a horrible noise, I think it is best practise to sonicate the sample during the analysis.
 
 ## Processing the output files from the LPS
 
@@ -46,6 +48,7 @@ for filename in os.listdir(folder):
     output = os.rename(infilename, infilename.replace('.$ls.xls', '.txt'))
 
 ```
+The main reason for using python was just for me to get some practise in python as I mostly use R. I don't know if it was faster/easier in python, but I do need to get more experience with the syntax, so this was a quick chance to develop those skills.
 
 Now we have the data in the right format I wrote a function to do some more reprocessing of the LPS files. I wrote a function to do this and set the plotting theme in a separate function for consistency:
 
@@ -58,7 +61,7 @@ theme_LPS
 
 ```
 
-This function produces plots and outputs the processed data for any file that has been processed using the HBuckland preferences using the Beckman software. The plots produced by the function for each sample analysed:
+This function produces plots and outputs the processed data for any file that has been processed using the HBuckland preferences using the Beckman software. The plots produced by the function for each sample analysed look like this:
 
 ```{r perform function, echo=FALSE, fig.width=13,fig.height=6}
 source(here::here("code","file_process_function.R"))
