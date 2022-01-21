@@ -195,6 +195,7 @@ for filename in os.listdir(folder):
   base_file, ext = os.path.splitext(filename)
   if ext == &quot;.xls&quot;:
     output = os.rename(infilename, infilename.replace(&#39;.$ls.xls&#39;, &#39;.txt&#39;))</code></pre>
+<p>The main reason for using python was just for me to get some practise in python as I mostly use R. I don’t know if it was faster/easier in python, but I do need to get more experience with the syntax, so this was a quick chance to develop those skills.</p>
 <p>Now we have the data in the right format I wrote a function to do some more reprocessing of the LPS files. I wrote a function to do this and set the plotting theme in a separate function for consistency:</p>
 <pre class="r"><code>source(here::here(&quot;code&quot;,&quot;file_process_function.R&quot;))
 source(here::here(&quot;code&quot;,&quot;theme_function.R&quot;))
