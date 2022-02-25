@@ -1,0 +1,1767 @@
+[common]
+Program=Beckman Coulter LS
+CPName=ANSI code page 1252 Latin 1 (US, Western Europe)
+ftype= 120  LS run data
+Version=Version 3.29    29 Aug 2003
+VersionMajorPC= 0
+VersionMinorPC= 0
+MicroVersion=LS, 11:54 Wed Sep 28 1994
+MicroVersionNum= 2.02
+AnalysisVersion=PC Fortran 3.01
+AnalysisPC=
+SavePC=Version 3.29    29 Aug 2003
+Analysis68020=
+Filename=med_pump_average.$av
+Pathname=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\med_pump_average.$av
+Import=
+Export=
+Saved= 0  
+ReSaved= 0  
+SavedTZ= 0,
+ReSavedTZ= 0,
+Comment1=
+Operator=RG
+File0=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_01.$ls
+File1=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_02.$ls
+File2=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_03.$ls
+File3=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_04.$ls
+File4=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_05.$ls
+File5=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_06.$ls
+File6=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_07.$ls
+File7=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_08.$ls
+File8=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_09.$ls
+[#Saves]
+ 1645618270  2022-02-23  12:11
+ 0  
+[#SaveFlags]
+ 4096
+ 0
+[Save0]
+Pathname=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\med_pump_average.$av
+Time= 1645618270  2022-02-23  12:11:10
+TZ= 0,GMT Standard Time
+Flags= 4096
+LoginName=
+RealName=
+ID=
+a= 1
+b= 0
+c= 0
+User=LPS User
+Computer=DESKTOP-OIH6HH3
+WinVer=6.2
+DosVer=35.240
+Comment=
+CPName=ANSI code page 1252 Latin 1 (US, Western Europe)
+[SIsave0]
+Comment1=
+Operator=RG
+GroupID=high_pump
+SampleID=MZPB1
+BarCode=
+Comment2=
+IsControl= 0
+Density= 0
+RunNumber= 9
+Fluid=Water,1.333,,
+Valid= 0
+[CSsave0]
+OMfile=Fraunhofer.rfd
+OMRIs= 0 0 0 0 0 0 0 0 0 0 0 0
+AnalyzePIDS= 1
+CMode= 0
+ShapeFactor= 1
+Valid= 0
+[SPsave0]
+MinSize= 0
+MaxSize= 0
+XScale=0, 0, 0, 0
+YScale=0, 0, 0, 0
+Geometric= 0
+Valid= 0
+[SSsave0]
+Mean= 0, 0, 0
+Median= 0, 0, 0
+Mode= 0, 0, 0
+SD= 0, 0, 0
+CV= 0, 0, 0
+Valid= 0
+[sample]
+GroupID=high_pump
+SampleID=MZPB1
+BarCode=
+Comment2=
+IsControl= 0
+Density= 0
+[instrument]
+RunNumber= 9
+LSType= 230
+PIDSType= 4
+SerialNumber= 7205
+StartTime= 0  
+MicroTime= 0 Seconds
+MicroStatus= 0
+Benchon= 0  0:00 H:M
+Pumpon= 0  0:00
+Laseron= 0  0:00
+XLampon= 0  0:00
+Sonicateon= 0  0:00
+SonicPower= 0
+SonicFlags= 0
+WaitSonic= 0
+AlignTime= 0  
+OffTime= 0  
+BackTime= 0  
+GainTime= 0  
+ControlTm= 0  
+CertTm= 0  
+PCalTime= 0  
+PCalSize= 0
+PCalOM=
+PIDSGainTime= 0  
+PIDSGainSize= 0
+HiMidTime= 0  
+HiMidSize= 0
+RadioTime= 0  
+GainAdjTime= 0  
+GainAdjCom=
+HiGainTime= 0  
+MidGainTime= 0  
+LowGainTime= 0  
+FilterTime= 0  
+RinseTime= 0  
+DebubbleTime= 0  
+LoadTime= 0  
+Dilutions= 0
+MaxObs= 0
+MaxPIDSObs= 0
+RunTime= 0
+FilterFlag= 0
+RinseFlag= 0
+ReadCycles= 0
+RunStopped= 0
+Temp= 0
+TemCase= 0
+BeamPa= 0
+RefracF= 0
+RefracS= 0
+ImagS= 0
+Laser= 100
+LaserCurrent= 0
+GainSaved= 0  
+GainComment=
+LaserRad= 461
+LaserPa= 60158
+P450Rad= 67.16
+P450Pa= 63061.7
+P450Cal= 2.65
+P600Rad= 265.93
+P600Pa= 387353
+P600Cal= 3.33
+P900Rad= 135.3
+P900Pa= 219673
+P900Cal= 3.36
+PidsHiCal= 0.1
+Lasernm= 750
+450PCal= 0
+600PCal= 0
+900PCal= 0
+OMTime= 0  
+OMSpeed= 0 Sec
+OMCom=
+OMfile=Fraunhofer.rfd
+OMVersion=
+OMRIs= 0 0 0 0 0 0 0 0 0 0 0 0
+AnalysisCom=
+AnCom2=
+AnalysisLength= 0
+AnalyzePIDS= 1
+CMode= 0
+OMAngle1= 0
+OMAngle94= 0
+OMAngle126= 0
+OMbins= 0
+OMmin= 0
+OMmax= 0
+OMPIDSType= 0
+OMPIDSvh= 0
+OMnDiff= 0
+OMnPIDS= 0
+OMHasPIDS= 0
+Wavelengths= 0 0 0 0 0
+CompatAnVer= 0
+OffSaved= 0  
+OffComment=
+BackSaved= 0  
+BackComment=
+GSerial= 7205
+GSerial3081= 7184
+OSerial= 0
+BSerial= 0
+nBins= 116
+nTrend= 9
+oSpace= 0
+nDetec= 0
+nXDetec= 0
+bBins= 1
+bDetec= 0
+bXDetec= 0
+nObs= 0
+ModuleID= 3098
+ModuleRev= 0
+ModuleSerial= 0
+AugerRate= 0
+VibeRate= 0
+PumpSpeed= 50
+ALMPumpSpeed= 0
+ULMPumpSpeed= 0
+MLMStirrerSpeed= 0
+UseMLMStirrer= 0
+HazPumpSpeed= 0
+Level= 0
+ID3081=3081,7184,17JAN01,AE7205        
+ID3082=3082,1204000787,17JAN01,AE7205  
+ID3084=3084,1204000217,17JAN01,AE7205  
+ID3085=................................
+ID3086=3086,1002000206,17JAN,AE7205,39 
+ID3087=.......................,6478646E
+ID3088=3088,1204000749,17JAN01,AE7205  
+ID3089=3089,1002000080,17JAN01,AE7205  
+GID3081=
+GID3089=
+OID3081=
+OID3089=
+BID3081=
+BID3089=
+ModuleVersion=
+VerDPM=
+VerAS=
+Slot= 0
+Tube= 0
+DumpMs= 0
+AfterDumpMs= 0
+FillMs= 0
+SonicMs= 0
+SonicPwr= 0
+FlushMs= 0
+ASDropsA= 0
+ASDropsB= 0
+ASDropsC= 0
+Fluid=Water,1.333,,
+ShapeFactor= 1
+Density= 0
+Residual= 0
+StepsMicron= 0
+StepsPerMicronY= 0
+AlignXum= 0
+AlignYum= 0
+SkipBins= 0
+SkipBig= 0
+HPos0= 0
+VPos0= 0
+HPosC= 0
+VPosC= 0
+SuperMd= 0
+RunSet=
+RSMod= 0
+PrefFile=
+PrefMod= 0
+SOPName=
+SOPSaved= 0  
+SOPLoaded= 0  
+SOPSOMName=
+SOPSOMSaved= 0  
+SOPPrefName=
+SOPPrefSaved= 0  
+SOPComment=
+SOPLockPrefs= 0
+CurRun= 0
+NumRuns= 0
+GIDAlias=
+SIDAlias=
+C1Alias=
+C2Alias=
+Docked= 0
+IsULM= 0
+IDAutoSamp=
+ID13320=
+StartTZ= 0,
+DPM3Obs= 0
+TargObsR= 0
+BackObs= 0
+DPM3offset= 0
+MinObs= 0
+MaxObs= 0
+AvgObs= 0
+MinVac= 0
+MaxVac= 0
+AvgVac= 0
+LType= 0
+LObs= 0
+LPObs= 0
+LWt= 0
+LVol= 0
+[SampleStats]
+Mean= 0, 0, 0
+Median= 0, 0, 0
+Mode= 0, 0, 0
+SD= 0, 0, 0
+CV= 0, 0, 0
+Valid= 0
+[#Bindiam]
+0.03999
+0.0439
+0.048191
+0.052903
+0.058075
+0.063753
+0.069985
+0.076827
+0.084338
+0.092584
+0.10164
+0.11157
+0.12248
+0.13445
+0.1476
+0.16203
+0.17787
+0.19526
+0.21435
+0.2353
+0.25831
+0.28356
+0.31128
+0.34172
+0.37512
+0.4118
+0.45206
+0.49625
+0.54477
+0.59803
+0.65649
+0.72068
+0.79113
+0.86848
+0.95338
+1.0466
+1.1489
+1.2612
+1.3845
+1.5199
+1.6685
+1.8316
+2.0107
+2.2072
+2.423
+2.6599
+2.92
+3.2054
+3.5188
+3.8628
+4.2405
+4.6551
+5.1102
+5.6098
+6.1582
+6.7603
+7.4212
+8.1467
+8.9432
+9.8175
+10.777
+11.831
+12.988
+14.257
+15.651
+17.181
+18.861
+20.705
+22.729
+24.951
+27.391
+30.068
+33.008
+36.235
+39.778
+43.667
+47.936
+52.622
+57.767
+63.414
+69.614
+76.42
+83.891
+92.092
+101.1
+110.98
+121.83
+133.74
+146.81
+161.17
+176.92
+194.22
+213.21
+234.05
+256.94
+282.06
+309.63
+339.9
+373.13
+409.61
+449.66
+493.62
+541.88
+594.85
+653.01
+716.85
+786.93
+863.87
+948.32
+1041
+1142.8
+1254.5
+1377.2
+1511.8
+1659.6
+1821.9
+2000
+[Binunits]
+Units=0, 0, 0, 0
+[#Binheight]
+0.000328745
+0.000437177
+0.000707253
+0.00143048
+0.00298098
+0.00551724
+0.00843422
+0.0112638
+0.0140913
+0.0172231
+0.0205551
+0.0238558
+0.0272164
+0.0307049
+0.034338
+0.0381545
+0.0423126
+0.0469417
+0.0520842
+0.0577826
+0.0639716
+0.0706372
+0.0776117
+0.0849791
+0.0927901
+0.101316
+0.110523
+0.120458
+0.131104
+0.142653
+0.155112
+0.168525
+0.182909
+0.198435
+0.215174
+0.233201
+0.252547
+0.273248
+0.295296
+0.318698
+0.343597
+0.370178
+0.398669
+0.429257
+0.46225
+0.498082
+0.537317
+0.580462
+0.627907
+0.680019
+0.737272
+0.800101
+0.868764
+0.943228
+1.02355
+1.10997
+1.20312
+1.30372
+1.41242
+1.53008
+1.65735
+1.79489
+1.9422
+2.09816
+2.26056
+2.42673
+2.59269
+2.75173
+2.89451
+3.00979
+3.08916
+3.13028
+3.13858
+3.1243
+3.09573
+3.05382
+2.98963
+2.8889
+2.7405
+2.54469
+2.31606
+2.07852
+1.85651
+1.6675
+1.52003
+1.41574
+1.35218
+1.32463
+1.32513
+1.34181
+1.35864
+1.35463
+1.31024
+1.21225
+1.06375
+0.889971
+0.7253
+0.601912
+0.53424
+0.506851
+0.49161
+0.444901
+0.311149
+0.149716
+0.0337735
+0.00327574
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[SizeAvg]
+AvgWeight=4, 0, 1, 0
+NumRuns= 9
+ySize= 116
+[#SizeSumY]
+0.00295871
+0.00393459
+0.00636528
+0.0128743
+0.0268288
+0.0496552
+0.075908
+0.101374
+0.126821
+0.155008
+0.184996
+0.214702
+0.244948
+0.276344
+0.309042
+0.34339
+0.380814
+0.422475
+0.468758
+0.520044
+0.575744
+0.635735
+0.698505
+0.764812
+0.835111
+0.911843
+0.99471
+1.08412
+1.17993
+1.28387
+1.39601
+1.51673
+1.64618
+1.78591
+1.93657
+2.09881
+2.27292
+2.45923
+2.65767
+2.86828
+3.09238
+3.3316
+3.58802
+3.86331
+4.16025
+4.48274
+4.83586
+5.22416
+5.65116
+6.12017
+6.63545
+7.2009
+7.81887
+8.48905
+9.21191
+9.98975
+10.8281
+11.7334
+12.7118
+13.7708
+14.9162
+16.154
+17.4798
+18.8834
+20.3451
+21.8406
+23.3342
+24.7656
+26.0506
+27.0881
+27.8024
+28.1725
+28.2473
+28.1187
+27.8616
+27.4843
+26.9067
+26.0001
+24.6645
+22.9022
+20.8445
+18.7067
+16.7086
+15.0075
+13.6803
+12.7416
+12.1696
+11.9217
+11.9262
+12.0763
+12.2277
+12.1916
+11.7921
+10.9102
+9.57376
+8.00974
+6.5277
+5.41721
+4.80816
+4.56166
+4.42449
+4.00411
+2.80034
+1.34744
+0.303961
+0.0294816
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[#SizeSumY2]
+9.75463e-007
+1.7253e-006
+4.51606e-006
+1.848e-005
+8.02535e-005
+0.000274831
+0.000641941
+0.00114451
+0.00179078
+0.0026747
+0.0038088
+0.00512912
+0.00667493
+0.00849429
+0.0106215
+0.0131114
+0.0161227
+0.0198406
+0.0244226
+0.0300554
+0.0368354
+0.0449091
+0.0542137
+0.0649942
+0.0774922
+0.0923891
+0.109949
+0.13061
+0.154726
+0.1832
+0.216617
+0.255723
+0.301266
+0.354617
+0.41701
+0.489857
+0.574562
+0.672678
+0.785675
+0.915196
+1.06385
+1.23486
+1.43228
+1.6605
+1.92553
+2.23553
+2.60145
+3.03578
+3.55202
+4.16568
+4.89618
+5.76565
+6.79705
+8.01143
+9.43308
+11.0925
+13.0314
+15.3008
+17.9578
+21.0734
+24.7238
+28.9966
+33.951
+39.6218
+45.9926
+53.0024
+60.4999
+68.1499
+75.4058
+81.5321
+85.889
+88.191
+88.6603
+87.8558
+86.2577
+83.9386
+80.4477
+75.1179
+67.5975
+58.2817
+48.2788
+38.8834
+31.0214
+25.0284
+20.8012
+18.0507
+16.4715
+15.807
+15.814
+16.2112
+16.6216
+16.5242
+15.4556
+13.2303
+10.2005
+7.16288
+4.77715
+3.29561
+2.58932
+2.3229
+2.1853
+1.79459
+0.880399
+0.204333
+0.0104162
+9.81813e-005
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[#SizeMinVal]
+0.000305578
+0.000405931
+0.000656066
+0.00132284
+0.00275582
+0.00511579
+0.00786819
+0.0105598
+0.01326
+0.016261
+0.019484
+0.0227018
+0.0259792
+0.0294016
+0.032983
+0.0367715
+0.0409037
+0.0455283
+0.0507079
+0.0564898
+0.0627907
+0.069596
+0.0767381
+0.0843064
+0.0918948
+0.0999761
+0.108676
+0.118034
+0.128026
+0.138863
+0.150533
+0.163074
+0.176486
+0.190963
+0.206564
+0.223359
+0.241369
+0.260661
+0.28124
+0.303128
+0.326471
+0.351466
+0.378371
+0.407396
+0.438866
+0.473213
+0.511026
+0.552824
+0.599027
+0.650014
+0.706264
+0.768225
+0.836192
+0.910161
+0.990194
+1.07655
+1.16984
+1.27087
+1.38038
+1.49929
+1.62824
+1.76787
+1.91768
+2.07653
+2.24209
+2.40746
+2.56964
+2.72543
+2.86544
+2.97823
+3.05514
+3.09373
+3.09949
+3.08285
+3.05245
+3.00963
+2.94599
+2.84787
+2.70468
+2.5168
+2.29722
+2.06144
+1.83697
+1.63788
+1.47991
+1.36113
+1.28984
+1.26861
+1.28821
+1.30081
+1.31434
+1.30262
+1.26109
+1.17616
+0.999532
+0.791429
+0.618221
+0.508877
+0.450096
+0.445161
+0.44336
+0.39191
+0.27339
+0.129733
+0.02901
+0.0027931
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[#SizeMaxVal]
+0.000351369
+0.000470466
+0.000766134
+0.00156071
+0.00325008
+0.00597802
+0.00904682
+0.0120033
+0.0149559
+0.0182268
+0.0216689
+0.0250533
+0.0285077
+0.0320641
+0.035737
+0.0395676
+0.0437408
+0.0483482
+0.0534058
+0.0589532
+0.0649517
+0.0713961
+0.0781287
+0.0855532
+0.0934389
+0.102207
+0.111886
+0.122356
+0.133607
+0.145817
+0.159008
+0.173229
+0.188508
+0.204995
+0.222773
+0.241917
+0.262463
+0.284416
+0.307754
+0.332473
+0.35871
+0.386627
+0.416433
+0.448292
+0.4825
+0.519482
+0.559787
+0.603903
+0.652208
+0.705068
+0.762944
+0.826273
+0.895553
+0.970419
+1.0509
+1.13724
+1.23003
+1.32993
+1.43747
+1.55346
+1.67913
+1.81472
+1.95975
+2.11314
+2.27511
+2.44145
+2.61082
+2.7737
+2.92007
+3.0386
+3.12079
+3.16423
+3.17446
+3.16182
+3.13471
+3.09377
+3.02936
+2.92608
+2.7737
+2.57466
+2.34261
+2.10234
+1.87953
+1.69269
+1.55362
+1.47277
+1.42658
+1.40173
+1.38604
+1.38299
+1.40824
+1.39883
+1.33429
+1.25947
+1.14428
+0.983921
+0.823133
+0.705583
+0.625612
+0.573981
+0.542561
+0.523226
+0.37915
+0.185739
+0.0422687
+0.00411405
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[SizeErrBars]
+Type= 7426
+[#SizeLowerLimit]
+0.000291316
+0.000386248
+0.000623001
+0.00125211
+0.00260871
+0.00485692
+0.00750804
+0.010113
+0.0127311
+0.0156458
+0.0187957
+0.021956
+0.0251737
+0.0285608
+0.0321489
+0.0359698
+0.0401407
+0.0448307
+0.0501194
+0.0560558
+0.0625271
+0.0695029
+0.0767518
+0.0842026
+0.0917543
+0.099765
+0.108288
+0.117398
+0.127082
+0.137564
+0.148827
+0.160909
+0.173801
+0.187708
+0.202684
+0.218798
+0.236073
+0.254589
+0.274365
+0.295433
+0.317946
+0.342119
+0.368222
+0.396487
+0.427251
+0.460958
+0.498209
+0.539537
+0.585384
+0.63613
+0.692263
+0.754263
+0.822416
+0.896749
+0.97731
+1.06435
+1.15851
+1.26055
+1.37128
+1.49152
+1.62183
+1.76258
+1.91312
+2.07168
+2.23536
+2.40113
+2.5652
+2.72154
+2.86156
+2.97437
+3.05134
+3.08969
+3.0944
+3.07564
+3.04237
+2.99694
+2.93198
+2.83422
+2.69288
+2.50685
+2.28746
+2.05314
+1.82605
+1.62587
+1.46171
+1.33871
+1.26293
+1.23761
+1.25369
+1.28229
+1.29336
+1.2873
+1.25974
+1.16491
+0.973325
+0.758741
+0.579339
+0.469764
+0.432722
+0.433306
+0.420288
+0.363782
+0.243789
+0.113667
+0.0251027
+0.00237928
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[#SizeUpperLimit]
+0.000366175
+0.000488105
+0.000791505
+0.00160884
+0.00335326
+0.00617756
+0.00936041
+0.0124146
+0.0154514
+0.0188005
+0.0223145
+0.0257557
+0.0292591
+0.0328489
+0.0365271
+0.0403391
+0.0444846
+0.0490527
+0.0540491
+0.0595094
+0.0654161
+0.0717715
+0.0784716
+0.0857556
+0.0938259
+0.102867
+0.112759
+0.123518
+0.135126
+0.147741
+0.161397
+0.176141
+0.192017
+0.209161
+0.227664
+0.247603
+0.269021
+0.291908
+0.316228
+0.341962
+0.369249
+0.398236
+0.429116
+0.462027
+0.497249
+0.535206
+0.576425
+0.621388
+0.67043
+0.723907
+0.78228
+0.845938
+0.915112
+0.989707
+1.06978
+1.15559
+1.24772
+1.34688
+1.45357
+1.56865
+1.69287
+1.82719
+1.97129
+2.12463
+2.28577
+2.45233
+2.62018
+2.78191
+2.92745
+3.04521
+3.12698
+3.17086
+3.18277
+3.17295
+3.14909
+3.1107
+3.04728
+2.94358
+2.78812
+2.58252
+2.34466
+2.1039
+1.88697
+1.70912
+1.57835
+1.49277
+1.44143
+1.41166
+1.39657
+1.40133
+1.42391
+1.42195
+1.36073
+1.25958
+1.15418
+1.0212
+0.87126
+0.734061
+0.635758
+0.580397
+0.562933
+0.526019
+0.378509
+0.185765
+0.0424442
+0.0041722
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[#Pass]
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[#BadDetec]
+[SizeAvgStats]
+Mean= 9,624.438721,43335.5703,67.7722,71.5752
+Median= 9,304.155731,10281.1826,33.1307,34.6732
+D(p,q)= 9,0.959306598,0.102261052,0.105216,0.10794
+p= 0
+q= 0
+Variance= 9,83549.5703,776326464,8912.28,9737.54
+SD= 9,867.049194,83549.5781,94.4049,98.679
+CV= 9,1249.75061,173560.234,136.609,141.807
+Skew= 9,24.3198071,65.7499161,2.61843,2.79871
+Kurtosis= 9,75.5683212,636.318909,7.70596,9.18604
+CumY= 9,900,90000,100,100
+D10= 9,45.0552406,225.76297,4.82087,5.23396
+D50= 9,304.155731,10281.1826,33.1307,34.6732
+D90= 9,1706.13574,323537.031,184.387,195.479
+SSA= 9,70750.0703,556194624,7772.13,7917.4
+MinSize= 0.03999
+MaxSize= 2000
+XScale=70, 0, 0, 0
+YScale=4, 0, 1, 0
+Geometric= 0
+MinChan= 0
+MaxChan= 115
+[Trend]
+y0str=
+y1str=
+y2str=
+Mean= 0,0,0
+Median= 0,0,0
+D(p,q)= 0,0,0
+SD= 0,0,0
+CV= 0,0,0
+SSA= 0,0,0
+D10= 0,0,0
+D50= 0,0,0
+D90= 0,0,0
+DApct= 0
+DBpct= 0
+DCpct= 0
+PLTAdiam= 0
+PLTBdiam= 0
+PGTAdiam= 0
+PGTBdiam= 0
+[Size0]
+Filename=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_01.$ls
+SampleID=MZPB1
+Comment1=
+Comment2=
+RunTime= 1645616797  2022-02-23  11:46:37
+SerialNumber= 7205
+Benchon= 150.1
+Temp= 0
+Obs= 9.21128
+XObs= 39.0193
+BeamPa= 57229.6
+ESize= 114.253
+Flux= 4.87118e+006
+XFlux= 374.099
+LBFlux= 52275
+MBFlux= 370.349
+HBFlux= 8.51518
+AnVer= 0
+Mean= 71.5752
+MeanMin= 0
+MeanMax= 0
+Median= 34.6732
+MedianMin= 0
+MedianMax= 0
+D(p,q)= 0.105359
+SD= 98.679
+SDMin= 0
+SDMax= 0
+CV= 137.868
+CVMin= 0
+CVMax= 0
+D10= 5.23396
+D50= 34.6732
+D90= 195.479
+SSA= 7772.13
+DAdiam= 0.03999
+DBdiam= 0.03999
+DCdiam= 0.03999
+PLTApct= 0
+PLTBpct= 0
+PGTApct= 0
+PGTBpct= 0
+[Size1]
+Filename=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_02.$ls
+SampleID=MZPB1
+Comment1=
+Comment2=
+RunTime= 1645616863  2022-02-23  11:47:43
+SerialNumber= 7205
+Benchon= 150.117
+Temp= 0
+Obs= 9.56731
+XObs= 41.5856
+BeamPa= 57005.1
+ESize= 113.045
+Flux= 4.8556e+006
+XFlux= 372.074
+LBFlux= 52275
+MBFlux= 370.349
+HBFlux= 8.51518
+AnVer= 0
+Mean= 69.6642
+MeanMin= 0
+MeanMax= 0
+Median= 33.9532
+MedianMin= 0
+MedianMax= 0
+D(p,q)= 0.106635
+SD= 95.9241
+SDMin= 0
+SDMax= 0
+CV= 137.695
+CVMin= 0
+CVMax= 0
+D10= 4.99421
+D50= 33.9532
+D90= 190.577
+SSA= 7850.58
+DAdiam= 0.03999
+DBdiam= 0.03999
+DCdiam= 0.03999
+PLTApct= 0
+PLTBpct= 0
+PGTApct= 0
+PGTBpct= 0
+[Size2]
+Filename=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_03.$ls
+SampleID=MZPB1
+Comment1=
+Comment2=
+RunTime= 1645616930  2022-02-23  11:48:50
+SerialNumber= 7205
+Benchon= 150.133
+Temp= 0
+Obs= 9.86946
+XObs= 42.5592
+BeamPa= 56814.7
+ESize= 113.079
+Flux= 4.86169e+006
+XFlux= 374.146
+LBFlux= 52275
+MBFlux= 370.349
+HBFlux= 8.51518
+AnVer= 0
+Mean= 69.8954
+MeanMin= 0
+MeanMax= 0
+Median= 33.7089
+MedianMin= 0
+MedianMax= 0
+D(p,q)= 0.107658
+SD= 97.4893
+SDMin= 0
+SDMax= 0
+CV= 139.479
+CVMin= 0
+CVMax= 0
+D10= 4.87574
+D50= 33.7089
+D90= 190.904
+SSA= 7847.71
+DAdiam= 0.03999
+DBdiam= 0.03999
+DCdiam= 0.03999
+PLTApct= 0
+PLTBpct= 0
+PGTApct= 0
+PGTBpct= 0
+[Size3]
+Filename=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_04.$ls
+SampleID=MZPB1
+Comment1=
+Comment2=
+RunTime= 1645617435  2022-02-23  11:57:15
+SerialNumber= 7205
+Benchon= 150.25
+Temp= 0
+Obs= 9.09191
+XObs= 35.3545
+BeamPa= 57169.4
+ESize= 113.019
+Flux= 4.67613e+006
+XFlux= 369.03
+LBFlux= 54292.9
+MBFlux= 371.133
+HBFlux= 8.55158
+AnVer= 0
+Mean= 70.0576
+MeanMin= 0
+MeanMax= 0
+Median= 34.0684
+MedianMin= 0
+MedianMax= 0
+D(p,q)= 0.105216
+SD= 97.3096
+SDMin= 0
+SDMax= 0
+CV= 138.899
+CVMin= 0
+CVMax= 0
+D10= 5.18281
+D50= 34.0684
+D90= 192.575
+SSA= 7843.37
+DAdiam= 0.03999
+DBdiam= 0.03999
+DCdiam= 0.03999
+PLTApct= 0
+PLTBpct= 0
+PGTApct= 0
+PGTBpct= 0
+[Size4]
+Filename=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_05.$ls
+SampleID=MZPB1
+Comment1=
+Comment2=
+RunTime= 1645617501  2022-02-23  11:58:21
+SerialNumber= 7205
+Benchon= 150.267
+Temp= 0
+Obs= 9.41745
+XObs= 40.2553
+BeamPa= 56964.6
+ESize= 120.197
+Flux= 4.65012e+006
+XFlux= 363.548
+LBFlux= 54292.9
+MBFlux= 371.133
+HBFlux= 8.55158
+AnVer= 0
+Mean= 68.3432
+MeanMin= 0
+MeanMax= 0
+Median= 33.4258
+MedianMin= 0
+MedianMax= 0
+D(p,q)= 0.106625
+SD= 95.018
+SDMin= 0
+SDMax= 0
+CV= 139.031
+CVMin= 0
+CVMax= 0
+D10= 4.95303
+D50= 33.4258
+D90= 186.889
+SSA= 7912.67
+DAdiam= 0.03999
+DBdiam= 0.03999
+DCdiam= 0.03999
+PLTApct= 0
+PLTBpct= 0
+PGTApct= 0
+PGTBpct= 0
+[Size5]
+Filename=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_06.$ls
+SampleID=MZPB1
+Comment1=
+Comment2=
+RunTime= 1645617567  2022-02-23  11:59:27
+SerialNumber= 7205
+Benchon= 150.283
+Temp= 0
+Obs= 9.6796
+XObs= 41.482
+BeamPa= 56799.8
+ESize= 112.049
+Flux= 4.65303e+006
+XFlux= 363.838
+LBFlux= 54292.9
+MBFlux= 371.133
+HBFlux= 8.55158
+AnVer= 0
+Mean= 69.0936
+MeanMin= 0
+MeanMax= 0
+Median= 33.197
+MedianMin= 0
+MedianMax= 0
+D(p,q)= 0.107639
+SD= 97.9795
+SDMin= 0
+SDMax= 0
+CV= 141.807
+CVMin= 0
+CVMax= 0
+D10= 4.83032
+D50= 33.197
+D90= 188.16
+SSA= 7917.4
+DAdiam= 0.03999
+DBdiam= 0.03999
+DCdiam= 0.03999
+PLTApct= 0
+PLTBpct= 0
+PGTApct= 0
+PGTBpct= 0
+[Size6]
+Filename=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_07.$ls
+SampleID=MZPB1
+Comment1=
+Comment2=
+RunTime= 1645617998  2022-02-23  12:06:38
+SerialNumber= 7205
+Benchon= 150.383
+Temp= 0
+Obs= 9.34171
+XObs= 39.4931
+BeamPa= 57025
+ESize= 113.274
+Flux= 4.91744e+006
+XFlux= 376.451
+LBFlux= 53178.9
+MBFlux= 370.536
+HBFlux= 8.52525
+AnVer= 0
+Mean= 69.7578
+MeanMin= 0
+MeanMax= 0
+Median= 34.3981
+MedianMin= 0
+MedianMax= 0
+D(p,q)= 0.105411
+SD= 95.2956
+SDMin= 0
+SDMax= 0
+CV= 136.609
+CVMin= 0
+CVMax= 0
+D10= 5.20525
+D50= 34.3981
+D90= 191.671
+SSA= 7810.81
+DAdiam= 0.03999
+DBdiam= 0.03999
+DCdiam= 0.03999
+PLTApct= 0
+PLTBpct= 0
+PGTApct= 0
+PGTBpct= 0
+[Size7]
+Filename=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_08.$ls
+SampleID=MZPB1
+Comment1=
+Comment2=
+RunTime= 1645618064  2022-02-23  12:07:44
+SerialNumber= 7205
+Benchon= 150.4
+Temp= 0
+Obs= 9.67568
+XObs= 41.9008
+BeamPa= 56814.9
+ESize= 111.795
+Flux= 4.86568e+006
+XFlux= 376.325
+LBFlux= 53178.9
+MBFlux= 370.536
+HBFlux= 8.52525
+AnVer= 0
+Mean= 68.2794
+MeanMin= 0
+MeanMax= 0
+Median= 33.6004
+MedianMin= 0
+MedianMax= 0
+D(p,q)= 0.106825
+SD= 94.4049
+SDMin= 0
+SDMax= 0
+CV= 138.263
+CVMin= 0
+CVMax= 0
+D10= 4.95907
+D50= 33.6004
+D90= 185.492
+SSA= 7884.03
+DAdiam= 0.03999
+DBdiam= 0.03999
+DCdiam= 0.03999
+PLTApct= 0
+PLTBpct= 0
+PGTApct= 0
+PGTBpct= 0
+[Size8]
+Filename=C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\high_pump_MZPB1_09.$ls
+SampleID=MZPB1
+Comment1=
+Comment2=
+RunTime= 1645618130  2022-02-23  12:08:50
+SerialNumber= 7205
+Benchon= 150.417
+Temp= 0
+Obs= 9.87505
+XObs= 42.7749
+BeamPa= 56689.5
+ESize= 110.968
+Flux= 4.82917e+006
+XFlux= 377.046
+LBFlux= 53178.9
+MBFlux= 370.536
+HBFlux= 8.52525
+AnVer= 0
+Mean= 67.7722
+MeanMin= 0
+MeanMax= 0
+Median= 33.1307
+MedianMin= 0
+MedianMax= 0
+D(p,q)= 0.10794
+SD= 94.9492
+SDMin= 0
+SDMax= 0
+CV= 140.101
+CVMin= 0
+CVMax= 0
+D10= 4.82087
+D50= 33.1307
+D90= 184.387
+SSA= 7911.38
+DAdiam= 0.03999
+DBdiam= 0.03999
+DCdiam= 0.03999
+PLTApct= 0
+PLTBpct= 0
+PGTApct= 0
+PGTBpct= 0
+[#Edited]
+ 0
+ 0
+ 0
+ 0
+ 0
+[#AvgEdited]
+ 0
+ 0
+ 0
+ 0
+ 0
+[end]
+CHK1= 0055BD06
+CHK2= 07D306E1
+CHK3= 02921026
+CHK4= 1C5A2D00
+CHK5= C:\Users\LPS User\Desktop\LPS User Data\Hannah Buckland\20220223\med_pump_average.$av
+[eof]
