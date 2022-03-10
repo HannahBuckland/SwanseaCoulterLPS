@@ -39,13 +39,13 @@ LPSprocess <- function(LPStxt){
   # Read in volume percentages for GSD from raw files
   LPS_data <- read.table(file=LPS_file,
                          sep="\t",
-                         skip=66,
+                         skip=67,
                          fill=TRUE)
   
   # Read in interpolated data for plotting smooth cumulative distributions
   LPS_inter <- read.table(file=LPS_file,
                           sep="\t",
-                          skip=99,
+                          skip=100,
                           fill=TRUE)
   
   LPS_data <- LPS_data[1:28,] # exclude the interpolated data to calculate phi bins
@@ -108,9 +108,11 @@ LPSprocess <- function(LPStxt){
   sidebyside <- cumulative + phiscale
   
   # From function return the stats, the phi scale data and the plots
-  return(list(stats=LPS_stats,
-              phi_data=LPS_phi,
-              plot=sidebyside))
+  # return(list(stats=LPS_stats,
+  #             phi_data=LPS_phi,
+  #             plot=sidebyside))
   
+  # When batch processing lots of data only output interpolated data
+  return(LPS_inter)
 }
 
