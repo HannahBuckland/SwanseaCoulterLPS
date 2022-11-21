@@ -18,7 +18,11 @@ day2files <- list.files(here::here("data","20220224"),
                         pattern = glob2rx("*IODP*.txt*"),
                         full.names = TRUE)
 
-IODP_files_Feb <- c(day1files,day2files)
+day3files <- list.files(here::here("data","20220802"),
+                        pattern = glob2rx("*STV*.txt*"),
+                        full.names = TRUE)
+
+IODP_files_Feb <- c(day1files,day2files,day3files)
 
 IODP_names <- tstrsplit(IODP_files_Feb,"STV")[[2]]
 IODP_names <- tstrsplit(IODP_names,".txt")[[1]]
