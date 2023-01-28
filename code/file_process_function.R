@@ -21,52 +21,52 @@ LPSprocess <- function(LPStxt){
   LPS_stats <- read.table(file=LPS_file,
                           sep="\t",
                           skip=21,
-                          fill=TRUE)
+                          nrows = 13,
+                          fill=TRUE,
+                          stringsAsFactors = FALSE)
   
-  LPS_stats <- LPS_stats[1:13,] # exclude remainder of file
-  
-  # Manually rename columns
-  colnames(LPS_stats) <- c("stat","value") # set colnames
+  LPS_stats <- data.frame(statistic=LPS_stats$V1,value=LPS_stats$V2) # exclude remainder of file
   
   LPS_stats <- LPS_stats %>%
-    mutate(stat = str_remove(LPS_stats$stat, "[:]")) # get rid of spurious colons
+    mutate(statistic = str_remove(LPS_stats$statistic, "[:]")) %>% # get rid of spurious colons %>%
+    mutate(value = as.numeric(value))
   
   # Set up data frame of percentiles for plotting on cumulative plot
   LPS_percentiles <- data.frame(x=as.numeric(LPS_stats$value[11:13]),
                                 y=c(10,50,90),
-                                label = paste(as.character(LPS_stats$stat[11:13]),"=",LPS_stats$value[11:13]))
+                                label = paste(as.character(LPS_stats$statistic[11:13]),"=",LPS_stats$value[11:13]))
 
   # Read in volume percentages for GSD from raw files
   LPS_data <- read.table(file=LPS_file,
                          sep="\t",
-                         skip=67,
-                         fill=TRUE)
+                         skip=66, # 66 works for November files
+                         nrows = 28,
+                         fill=TRUE,
+                         stringsAsFactors = FALSE)
+  
+  LPS_data <- data.frame(lower_um=LPS_data$V1,
+                         cumul.vol_lessthan = LPS_data$V2,
+                         cumul.vol_greatthan = LPS_data$V3,
+                         vol_perc = LPS_data$V4)
   
   # Read in interpolated data for plotting smooth cumulative distributions
   LPS_inter <- read.table(file=LPS_file,
                           sep="\t",
                           skip=100,
-                          fill=TRUE)
+                          fill=TRUE,
+                          stringsAsFactors = FALSE)
   
-  LPS_data <- LPS_data[1:28,] # exclude the interpolated data to calculate phi bins
   
-  # Manually rename columns
-  colnames(LPS_data) <- c("lower_um",
-                          "cumul.vol_lessthan",
-                          "cumul.vol_greatthan",
-                          "vol_perc")
-  
-  colnames(LPS_inter) <- c("lower_um",
-                           "middle_um",
-                           "upper_um",
-                           "vol_perc",
-                          "cumul.vol_lessthan",
-                          "cumul.vol_greatthan",
-                          "number_perc")
+  LPS_inter <- data.frame(lower_um = LPS_inter$V1,
+                           middle_um = LPS_inter$V2,
+                           upper_um = LPS_inter$V3,
+                           vol_perc = LPS_inter$V4,
+                          cumul.vol_lessthan = LPS_inter$V5,
+                          cumul.vol_greatthan = LPS_inter$V6,
+                          number_perc = LPS_inter$V7)
   
   # Change to numeric and push down vol_perc column (reads in as difference)
   LPS_data <- LPS_data %>%
-    mutate_if(is.character,as.numeric) %>%
     mutate(vol_perc=lag(vol_perc)) 
   
   # set first vol_perc as cumulative value
@@ -107,12 +107,14 @@ LPSprocess <- function(LPStxt){
   
   sidebyside <- cumulative + phiscale
   
+  #out <- list(LPS_phi=LPS_phi, LPS_inter=LPS_inter)
+  out <- LPS_phi
   # From function return the stats, the phi scale data and the plots
   # return(list(stats=LPS_stats,
   #             phi_data=LPS_phi,
   #             plot=sidebyside))
   
   # When batch processing lots of data only output interpolated data
-  return(LPS_inter)
+  return(out)
 }
 
